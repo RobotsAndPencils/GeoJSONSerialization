@@ -33,7 +33,7 @@
 /**
  
  */
-+ (MKShape *)shapeFromGeoJSONFeature:(NSDictionary *)feature
++ (id)shapeFromGeoJSONFeature:(NSDictionary *)feature
                                error:(NSError * __autoreleasing *)error;
 
 /**
